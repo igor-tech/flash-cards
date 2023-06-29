@@ -1,14 +1,13 @@
-import { Button } from './components/ui/button'
-import { Typography } from './components/ui/typography'
+import { useState } from 'react'
+
+import { Checkbox } from './components/ui/checkbox'
 
 export function App() {
+  const [isCheck, setIsCheck] = useState(true)
+
   return (
     <div>
-      <Typography variant={'link1'}>Hello</Typography>
-      <Button>Primary</Button>
-      <Button variant={'secondary'}>Secondary</Button>
-      <Button variant={'link'}>Link</Button>
-      <Button variant={'tertiary'}>Tertiary</Button>
+      <Checkbox label={'checkbox'} checked={isCheck} onChange={setIsCheck} disabled />
     </div>
   )
 }

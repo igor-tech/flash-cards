@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  & button {
+    all: unset;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 36px;
+    height: 36px;
+
+    background-color: transparent;
+    border-radius: 50%;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: var(--color-dark-500);
+    }
+
+    &:active {
+      background-color: var(--color-dark-100);
+    }
+
+    &:focus {
+      background-color: var(--color-dark-100);
+    }
+
+    &:disabled {
+      pointer-events: none;
+      color: var(--color-dark-100);
+    }
+  }
+
+  .disabledLabel {
+    margin-left: 2px;
+    color: var(--color-dark-100);
+  }
+
+  .label {
+    margin-left: 2px;
+  }
+}
