@@ -1,10 +1,10 @@
 import { Button } from './components/ui/button'
-import { Typography } from './components/ui/typography/typography.tsx'
+import { Typography } from './components/ui/typography'
 
 export function App() {
   return (
     <div>
-      <Typography variant={'large'}>Hello</Typography>
+      <Typography variant={'link1'}>Hello</Typography>
       <Button>Primary</Button>
       <Button variant={'secondary'}>Secondary</Button>
       <Button variant={'link'}>Link</Button>

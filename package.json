@@ -21,6 +21,7 @@
     "@it-incubator/eslint-config": "^0.1.2",
     "@it-incubator/prettier-config": "^0.1.1",
     "@it-incubator/stylelint-config": "^0.1.4",
+    "@storybook/addon-a11y": "^7.0.24",
     "@storybook/addon-essentials": "7.0.23",
     "@storybook/addon-interactions": "7.0.23",
     "@storybook/addon-links": "7.0.23",

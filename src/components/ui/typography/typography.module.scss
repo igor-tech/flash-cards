@@ -14,6 +14,10 @@
   text-decoration-line: underline;
 }
 
+.inherit {
+  color: inherit;
+}
+
 .large {
   @include typography-mixin(var(--font-size-xxl), var(--line-height-l), var(--font-weight-bold));
 }
@@ -74,8 +78,4 @@
 
 .error {
   color: var(--color-danger-300);
-}
-
-.inherit {
-  color: inherit;
 }
